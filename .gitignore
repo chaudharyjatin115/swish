@@ -1,0 +1,38 @@
+# Gradle
+.gradle/
+build/
+**/build/
+!src/**/build/
+
+# Local configuration
+local.properties
+.cxx/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Android Keystore
+*.jks
+*.keystore
+
+# Rust
+**/target/
+**/*.rs.bk
+
+# OS & Editor
+.DS_Store
+*.swp
+*~
+.vscode/
+
+# Build artifacts
+*.apk
+*.aab
+
+# Local test outputs
+received_from_pixel/
+test_payload.txt
